@@ -1,16 +1,18 @@
 import CartWidget from "./CartWdiget/CartWidget"
 
+
 const NavBar = () => {
     return (
-        <nav>
-            <h3>AvilaCookies</h3>
-            <div>
-              <button>Tortas</button>
-              <button>Galletas</button>
-              <button>Arreglos personalizados</button>
-            </div>
-            <CartWidget/>
-        </nav>
+        
+        <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+          <img src="" alt="./img/logo.jpeg" width="30" height="30" class="d-inline-block align-text-top"/>
+           AvilaCookies
+          </a>
+        </div>
+        <CartWidget/>
+      </nav>
     )
 }
-export default NavBar
+export default NavBar;

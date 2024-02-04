@@ -1,15 +1,14 @@
-import carrito from '.img/carrito-de-compras.png'
 
-const CartWidget = () => {
+export const CartWidget = () => {
     return (
         <nav>
            
             <div>
-             <img src={carrito} alt="card-widget"/>
+            <i className="bi bi-cart3"></i>
              1
             </div>
         </nav>
     )
 }
 
-export default CartWidget
+export default CartWidget;
